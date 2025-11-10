@@ -1,303 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Secure Guard Security Services</title>
-  <style>
-    body {
-      font-family: 'Trebuchet MS', sans-serif;
-      margin: 0;
-      padding: 0;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background-color: #003366; /* Corporate Blue */
-      color: #FFD700; /* Gold */
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header img {
-      max-width: 200px;
-      margin-bottom: 15px;
-    }
-    header h1 {
-      margin: 10px 0 5px;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      margin: 0 0 20px;
-    }
-    select {
-      padding: 10px 15px;
-      font-size: 1rem;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-    }
-    section {
-      padding: 50px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #003366;
-      margin-bottom: 20px;
-    }
-    ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    ul li {
-      margin-bottom: 15px;
-      padding-left: 25px;
-      position: relative;
-      font-size: 1.1rem;
-    }
-    ul li::before {
-      content: '✔';
-      color: #FFD700;
-      position: absolute;
-      left: 0;
-    }
-    .cta-button {
-      display: inline-block;
-      padding: 18px 35px;
-      background-color: #FFD700;
-      color: #003366;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 10px;
-      margin-top: 25px;
-      transition: background-color 0.3s;
-    }
-    .cta-button:hover {
-      background-color: #e6c200;
-    }
-    .contact-info {
-      margin-top: 30px;
-      font-size: 1rem;
-      line-height: 1.5;
-    }
-    .contact-info a {
-      color: #003366;
-      text-decoration: none;
-    }
-    .contact-info a:hover {
-      text-decoration: underline;
-    }
-    .value-statement {
-      margin-top: 20px;
-      font-style: italic;
-    }
-    footer {
-      background-color: #f2f2f2;
-      text-align: center;
-      padding: 25px;
-      font-size: 0.95rem;
-      color: #333;
-    }
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-      .cta-button {
-        padding: 15px 25px;
-      }
-      header img {
-        max-width: 150px;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Secure Guard Security Services</title>
+<style>
+body { font-family: 'Trebuchet MS', sans-serif; margin:0; padding:0; color:#333; line-height:1.6;}
+header { background-color:#003366; color:#FFD700; padding:40px 20px; text-align:center;}
+header img { max-width:200px; margin-bottom:15px;}
+header h1 { margin:10px 0 5px; font-size:2.5rem;}
+header p { font-size:1.2rem; margin:0 0 20px;}
+select { padding:10px 15px; font-size:1rem; border-radius:6px; border:1px solid #ccc;}
+section { padding:50px 20px; max-width:900px; margin:auto;}
+h2 { color:#003366; margin-bottom:20px;}
+ul { list-style-type:none; padding-left:0;}
+ul li { margin-bottom:15px; padding-left:25px; position:relative; font-size:1.1rem;}
+ul li::before { content:'✔'; color:#FFD700; position:absolute; left:0;}
+.cta-button { display:inline-block; padding:18px 35px; background-color:#FFD700; color:#003366; text-decoration:none; font-weight:bold; border-radius:10px; margin-top:25px; transition:background-color 0.3s;}
+.cta-button:hover { background-color:#e6c200;}
+.contact-info { margin-top:30px; font-size:1rem; line-height:1.5;}
+.contact-info a { color:#003366; text-decoration:none;}
+.contact-info a:hover { text-decoration:underline;}
+.value-statement { margin-top:20px; font-style:italic;}
+footer { background-color:#f2f2f2; text-align:center; padding:25px; font-size:0.95rem; color:#333;}
+@media (max-width:600px) { header h1 { font-size:2rem;} .cta-button { padding:15px 25px;} header img { max-width:150px; } }
+</style>
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <img src="https://drive.google.com/uc?export=view&id=1qQsoWkWxeDwJYgsW_147z1Sw8nrJIlQn" alt="Secure Guard Logo">
-    <h1 id="industry-headline">Protect Your Facility. Protect Your Peace of Mind.</h1>
-    <p id="industry-subheadline">Professional security solutions tailored for your business.</p>
-    <select id="industry-selector">
-      <option value="dispensary">Dispensaries / Cannabis Retail</option>
-      <option value="property">Property Management</option>
-      <option value="warehouse">Warehouses / Industrial</option>
-      <option value="marijuana">Marijuana Cultivation Facilities</option>
-      <option value="shelter">Homeless Shelters</option>
-    </select>
-  </header>
+<header>
+  <img src="logo.png" alt="Secure Guard Logo">
+  <h1 id="industry-headline">Protect Your Facility. Protect Your Peace of Mind.</h1>
+  <p id="industry-subheadline">Professional security solutions tailored for your business.</p>
+  <select id="industry-selector">
+    <option value="dispensary">Dispensaries / Cannabis Retail</option>
+    <option value="property">Property Management</option>
+    <option value="warehouse">Warehouses / Industrial</option>
+    <option value="marijuana">Marijuana Cultivation Facilities</option>
+    <option value="shelter">Homeless Shelters</option>
+  </select>
+</header>
 
-  <!-- Pain Points Section -->
-  <section id="pain-points">
-    <h2>Top Challenges We Solve</h2>
-    <ul id="pain-point-list">
-      <li>High-value inventory theft and shrinkage (up to 2% annually in cannabis retail)</li>
-      <li>Cash exposure and robbery risk</li>
-      <li>Regulatory compliance and fines</li>
-      <li>Theft from insiders and vendors</li>
-      <li>Cybersecurity and operational vulnerabilities</li>
-    </ul>
-  </section>
+<section id="pain-points">
+  <h2>Top Challenges We Solve</h2>
+  <ul id="pain-point-list"></ul>
+</section>
 
-  <!-- Solutions Section -->
-  <section id="solutions">
-    <h2>Our Solutions</h2>
-    <ul id="solutions-list">
-      <li>24/7 licensed and trained security personnel specialized per industry</li>
-      <li>Comprehensive risk assessments and compliance audits</li>
-      <li>Advanced technology: access control, video analytics, and incident tracking</li>
-      <li>Customized staff training and emergency drills</li>
-      <li>Data-driven incident reporting and performance analytics dashboards</li>
-      <li>Dedicated account management for rapid response</li>
-    </ul>
-  </section>
+<section id="solutions">
+  <h2>Our Solutions</h2>
+  <ul id="solutions-list"></ul>
+</section>
 
-  <!-- Value Statement & CTA Section -->
-  <section id="value">
-    <h2>Why Choose Secure Guard</h2>
-    <p class="value-statement" id="value-statement">
-      At Secure Guard Security Services, we don’t just provide guards — we deliver peace of mind, operational resilience, and measurable results. Our teams are trained for cannabis retail, warehouses, property complexes, and social-service facilities. Clients have seen theft reductions of 30%+, sub-1% shrink rates in dispensaries, and lower insurance premiums. Ahmad Hamidi, Business Development Manager, provides actionable, tailored consultations, and ensures you know exactly what you’re paying for.
-    </p>
-    <a href="https://calendar.app.google/P9haz9sCPjghe7Ds6" target="_blank" class="cta-button" id="cta-button">Book a Security Consultation</a>
-  </section>
+<section id="value">
+  <h2>Why Choose Secure Guard</h2>
+  <p class="value-statement" id="value-statement"></p>
+  <a href="https://calendar.app.google/P9haz9sCPjghe7Ds6" target="_blank" class="cta-button">Book a Security Consultation</a>
+</section>
 
-  <!-- Contact Information Section -->
-  <section class="contact-info">
-    <p><strong>Office:</strong> 888-713-0573</p>
-    <p><strong>Fax:</strong> 888-592-4877</p>
-    <p><strong>Email:</strong> <a href="mailto:sales@secureguardservices.com">sales@secureguardservices.com</a></p>
-    <p><strong>Website:</strong> <a href="https://secureguardservices.com/" target="_blank">www.secureguardservices.com</a></p>
-  </section>
+<section class="contact-info">
+  <p><strong>Office:</strong> 888-713-0573</p>
+  <p><strong>Fax:</strong> 888-592-4877</p>
+  <p><strong>Email:</strong> <a href="mailto:sales@secureguardservices.com">sales@secureguardservices.com</a></p>
+  <p><strong>Website:</strong> <a href="https://secureguardservices.com/" target="_blank">www.secureguardservices.com</a></p>
+</section>
 
-  <!-- Footer -->
-  <footer>
-    &copy; 2025 Secure Guard Security Services. All rights reserved.
-  </footer>
+<footer>
+&copy; 2025 Secure Guard Security Services. All rights reserved.
+</footer>
 
-  <!-- JavaScript to dynamically change industry content -->
-  <script>
-    const industrySelector = document.getElementById('industry-selector');
-    const headline = document.getElementById('industry-headline');
-    const subheadline = document.getElementById('industry-subheadline');
-    const painPoints = document.getElementById('pain-point-list');
-    const solutions = document.getElementById('solutions-list');
-    const valueStatement = document.getElementById('value-statement');
+<script>
+const industrySelector = document.getElementById('industry-selector');
+const headline = document.getElementById('industry-headline');
+const subheadline = document.getElementById('industry-subheadline');
+const painPoints = document.getElementById('pain-point-list');
+const solutions = document.getElementById('solutions-list');
+const valueStatement = document.getElementById('value-statement');
 
-    const industries = {
-      dispensary: {
-        headline: "Protect Your Dispensary. Protect Your Customers.",
-        subheadline: "Professional security solutions for cannabis retail operations.",
-        painPoints: [
-          "High-value inventory theft and shrinkage (2%+ annually)",
-          "Cash handling and robbery exposure",
-          "Regulatory compliance penalties",
-          "Theft from staff or vendors",
-          "Cybersecurity risks"
-        ],
-        solutions: [
-          "24/7 licensed security guards",
-          "Compliance audits and risk assessments",
-          "Access control and video analytics",
-          "Staff training on emergency response",
-          "Analytics dashboards for shrink reduction"
-        ],
-        value: "Secure Guard Security Services ensures dispensaries are safe, compliant, and profitable. Clients see reduced shrink, improved cash handling, and regulatory peace of mind. Ahmad Hamidi provides tailored, actionable consultations."
-      },
-      property: {
-        headline: "Protect Your Properties and Tenants.",
-        subheadline: "Security solutions for apartments, HOAs, and commercial properties.",
-        painPoints: [
-          "Tenant safety and liability exposure",
-          "Package theft and vandalism",
-          "Regulatory compliance complexity",
-          "Reputation and tenant retention impact"
-        ],
-        solutions: [
-          "Licensed security personnel",
-          "Property risk assessments",
-          "Incident response training",
-          "Access control implementation",
-          "Analytics and reporting dashboards"
-        ],
-        value: "Secure Guard Security Services helps property managers protect residents and assets, reduce liability, and maintain reputation. Ahmad Hamidi provides actionable, property-specific recommendations."
-      },
-      warehouse: {
-        headline: "Secure Your Warehouse. Protect Your Assets.",
-        subheadline: "Custom security for warehouses, logistics, and industrial facilities.",
-        painPoints: [
-          "Cargo and inventory theft (13% YOY increase in 2025)",
-          "Supply chain losses exceeding $1B annually",
-          "Internal operational gaps",
-          "Compliance and insurance penalties"
-        ],
-        solutions: [
-          "24/7 trained security personnel",
-          "Access control and alarm systems",
-          "Staff training and compliance audits",
-          "Analytics dashboards for incidents and risk mitigation"
-        ],
-        value: "Secure Guard Security Services protects warehouses and logistics networks with proven strategies that reduce theft and losses. Ahmad Hamidi provides tailored, data-driven security plans."
-      },
-      marijuana: {
-        headline: "Protect Your Cultivation Facility. Ensure Compliance.",
-        subheadline: "Professional security solutions for cannabis grow operations.",
-        painPoints: [
-          "High-value inventory risk",
-          "Regulatory compliance challenges",
-          "Staff safety and training gaps"
-        ],
-        solutions: [
-          "24/7 licensed security guards",
-          "Compliance audits and risk assessments",
-          "Staff emergency response training",
-          "Access control and video surveillance"
-        ],
-        value: "Secure Guard Security Services ensures cultivation facilities are compliant, secure, and operationally safe. Ahmad Hamidi provides actionable consultations."
-      },
-      shelter: {
-        headline: "Protect Your Shelter. Protect Your Residents.",
-        subheadline: "Professional security solutions for homeless shelters and social service facilities.",
-        painPoints: [
-          "Resident and staff safety in high-risk environments",
-          "Staffing and training shortfalls",
-          "Access control complexity",
-          "Liability and compliance challenges",
-          "Reputational risks from incidents"
-        ],
-        solutions: [
-          "24/7 trained security personnel with shelter experience",
-          "Risk assessments and compliance consulting",
-          "Staff training on conflict resolution and emergency response",
-          "Access control and visitor management",
-          "Real-time reporting and incident analytics"
-        ],
-        value: "Secure Guard Security Services partners with shelters to create safe, compliant, and well-managed environments. Ahmad Hamidi provides tailored recommendations and actionable strategies."
-      }
-    };
+const industries = {
+  dispensary: {
+    headline: "Protect Your Dispensary. Protect Your Customers.",
+    subheadline: "Professional security solutions for cannabis retail operations.",
+    painPoints: [
+      "High-value inventory theft and shrinkage (2%+ annually)",
+      "Cash handling and robbery exposure",
+      "Regulatory compliance penalties",
+      "Insider and vendor theft",
+      "Cybersecurity risks for POS and cash systems"
+    ],
+    solutions: [
+      "24/7 licensed security guards trained in cannabis retail",
+      "Compliance audits and risk assessments",
+      "Access control and video analytics",
+      "Staff emergency response training",
+      "Analytics dashboards for shrink reduction and incident tracking"
+    ],
+    value: "Secure Guard ensures dispensaries are safe, compliant, and profitable. Clients see reduced shrink, improved cash handling, and peace of mind. Ahmad Hamidi provides actionable, tailored consultations."
+  },
+  property: {
+    headline: "Protect Your Properties and Tenants.",
+    subheadline: "Security solutions for apartments, HOAs, and commercial properties.",
+    painPoints: [
+      "Tenant safety and liability exposure",
+      "Package theft and vandalism",
+      "Regulatory compliance complexity",
+      "Tenant retention and reputation impact"
+    ],
+    solutions: [
+      "Licensed security personnel 24/7",
+      "Property risk assessments and audits",
+      "Incident response and staff training",
+      "Access control implementation",
+      "Reporting dashboards to monitor incidents"
+    ],
+    value: "Secure Guard protects residents and assets, reduces liability, and preserves reputation. Ahmad Hamidi provides actionable, property-specific recommendations."
+  },
+  warehouse: {
+    headline: "Secure Your Warehouse. Protect Your Assets.",
+    subheadline: "Custom security for warehouses, logistics, and industrial facilities.",
+    painPoints: [
+      "Cargo and inventory theft (13% YOY increase)",
+      "Supply chain losses exceeding $1B annually",
+      "Internal operational gaps",
+      "Compliance and insurance penalties"
+    ],
+    solutions: [
+      "24/7 trained security personnel",
+      "Access control, alarm systems, and surveillance",
+      "Staff compliance and emergency training",
+      "Analytics dashboards for incidents and risk mitigation"
+    ],
+    value: "Secure Guard protects warehouses and logistics networks with proven strategies that reduce theft and losses. Ahmad Hamidi provides tailored, data-driven security plans."
+  },
+  marijuana: {
+    headline: "Protect Your Cultivation Facility. Ensure Compliance.",
+    subheadline: "Professional security solutions for cannabis grow operations.",
+    painPoints: [
+      "High-value inventory risk",
+      "Regulatory compliance challenges",
+      "Staff safety and training gaps"
+    ],
+    solutions: [
+      "24/7 licensed security guards",
+      "Compliance audits and risk assessments",
+      "Staff emergency response training",
+      "Access control and video surveillance"
+    ],
+    value: "Secure Guard ensures cultivation facilities are compliant, secure, and operationally safe. Ahmad Hamidi provides actionable consultations."
+  },
+  shelter: {
+    headline: "Protect Your Shelter. Protect Your Residents.",
+    subheadline: "Professional security solutions for homeless shelters and social service facilities.",
+    painPoints: [
+      "Resident and staff safety in high-risk environments",
+      "Staffing and training shortfalls",
+      "Access control complexity",
+      "Liability and compliance challenges",
+      "Reputational risks from incidents"
+    ],
+    solutions: [
+      "24/7 trained security personnel with shelter experience",
+      "Risk assessments and compliance consulting",
+      "Staff training on conflict resolution and emergency response",
+      "Access control and visitor management",
+      "Real-time reporting and incident analytics"
+    ],
+    value: "Secure Guard partners with shelters to create safe, compliant, and well-managed environments. Ahmad Hamidi provides tailored recommendations and actionable strategies."
+  }
+};
 
-    industrySelector.addEventListener('change', () => {
-      const selected = industrySelector.value;
-      const data = industries[selected];
-      headline.textContent = data.headline;
-      subheadline.textContent = data.subheadline;
+function updateContent(selected) {
+  const data = industries[selected];
+  headline.textContent = data.headline;
+  subheadline.textContent = data.subheadline;
+  painPoints.innerHTML = "";
+  data.painPoints.forEach(p => { const li = document.createElement('li'); li.textContent = p; painPoints.appendChild(li); });
+  solutions.innerHTML = "";
+  data.solutions.forEach(s => { const li = document.createElement('li'); li.textContent = s; solutions.appendChild(li); });
+  valueStatement.textContent = data.value;
+}
 
-      painPoints.innerHTML = "";
-      data.painPoints.forEach(point => {
-        const li = document.createElement('li');
-        li.textContent = point;
-        painPoints.appendChild(li);
-      });
+// Initialize content
+updateContent(industrySelector.value);
 
-      solutions.innerHTML = "";
-      data.solutions.forEach(sol => {
-        const li = document.createElement('li');
-        li.textContent = sol;
-        solutions.appendChild(li);
-      });
-
-      valueStatement.textContent = data.value;
-    });
-  </script>
+// Handle dropdown changes
+industrySelector.addEventListener('change', e => { updateContent(e.target.value); });
+</script>
 
 </body>
 </html>
