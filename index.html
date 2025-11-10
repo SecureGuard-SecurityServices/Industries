@@ -7,7 +7,8 @@
 <style>
 body { font-family: 'Trebuchet MS', sans-serif; margin:0; padding:0; color:#333; line-height:1.6;}
 header { background-color:#003366; color:#FFD700; padding:40px 20px; text-align:center;}
-header img { max-width:200px; margin-bottom:15px;}
+header .logo-wrapper { background-color:#FFD700; display:inline-block; padding:10px 20px; border-radius:8px; margin-bottom:15px;}
+header img { max-width:180px; display:block; }
 header h1 { margin:10px 0 5px; font-size:2.5rem;}
 header p { font-size:1.2rem; margin:0 0 20px;}
 select { padding:10px 15px; font-size:1rem; border-radius:6px; border:1px solid #ccc;}
@@ -29,7 +30,9 @@ footer { background-color:#f2f2f2; text-align:center; padding:25px; font-size:0.
 <body>
 
 <header>
-  <img src="logo.png" alt="Secure Guard Logo">
+  <div class="logo-wrapper">
+    <img src="logo.png" alt="Secure Guard Logo">
+  </div>
   <h1 id="industry-headline">Protect Your Facility. Protect Your Peace of Mind.</h1>
   <p id="industry-subheadline">Professional security solutions tailored for your business.</p>
   <select id="industry-selector">
